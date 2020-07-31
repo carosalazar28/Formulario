@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 100vw;
+}
+
+ul li {
+    list-style: none;
+    font-size: 25px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+li {
+    display: grid;
+    grid-template-columns: 350px 300px;
+}
+
+input, textarea {
+    background-color: #607d8b3b;
+    border-radius: 15px;
+    border: 0;
+}
+
+button {
+    padding: 20px;
+    grid-column: 1 / -1;
+    margin: auto;
+    border-radius: 50px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
